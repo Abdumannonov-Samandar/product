@@ -20,6 +20,10 @@ module.exports = {
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
     },
+    boxShadow: {
+      'box' : '0px 2px 15px 0px rgba(23, 58, 86, 0.1)',
+      'sss' : '0px 2px 8px 0px rgba(0, 0, 0, 0.25)',
+    },
   },
   plugins: [],
 };
