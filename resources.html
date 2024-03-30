@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macbook-Resources</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./css/output.css">
-
-</head>
-<body>
     
-     <!-- HEADER START -->
-     <header class="py-[19px] bg-white dark:bg-dark">
+</head>
+<body class="bg-white dark:bg-dark">
+    
+    <!-- HEADER START -->
+    <header class="py-[19px]">
         <div class="container mx-auto px-8 max-w-[1172px]">
             <div class="flex justify-between items-center">
                 <a class="flex items-center gap-4" href="./index.html">
@@ -89,7 +89,7 @@
         <!-- HERO END -->
         
         <!-- STORIES START -->
-        <section class="pb-[60px] lg:pb-40 dark:bg-dark">
+        <section class="pb-[60px] lg:pb-[100px] dark:bg-dark">
             <div class="container mx-auto px-8 max-w-[1172px]">
                 
                 <h2 class="font-sans text-center font-bold lg:text-[34px] dark:text-white text-[32px] lading-[48px] mb-[16px] lg:mb-[8px] lg:leading-[51px] text-dark">
@@ -156,14 +156,54 @@
                     </li>
                 </ul>
                 
-                    <a class="text-[18px] flex items-center w-[140px] after:pt-[5px] dark:after:content-[url('../assets/icons/arrow-wh.svg')]  mx-auto text-dark dark:text-white leading-[26px] font-sans font-medium after:content-[url('../assets/icons/arrow.svg')] after:w-[20px] after:ml-2" href="#">More Stories</a>
+                <a class="text-[18px] flex items-center w-[140px] after:pt-[5px] dark:after:content-[url('../assets/icons/arrow-wh.svg')]  mx-auto text-dark dark:text-white leading-[26px] font-sans font-medium after:content-[url('../assets/icons/arrow.svg')] after:w-[20px] after:ml-2" href="#">More Stories</a>
             </div>
         </section>
         <!-- STORIES END -->
+        
+        <section class="pt-[50px] pb-[52px]">
+            <div class="container mx-auto px-8 max-w-[935px]">
+                <div class="flex flex-col items-center text-center">
+                    <h2 class="font-sans font-bold text-[34px] leading-[57px] tracking-[0.2px] text-[#252B42] lg:mb-[17px]">
+                        Contact Us
+                    </h2>
+                    
+                    <p class="font-sans font-medium text-[18px] leading-[28px] tracking-[0.2px] text-[#374754] lg:mb-[65px] max-w-[312px] w-full">
+                        Need more detailed information? 
+                        Get in touch with us.
+                    </p>
 
+                    <ul class="flex items-center gap-[16px] mb-[56px]">
+                        <li class=""><img src="./assets/icons/insta-1.svg" width="40" height="40" alt="instagram logo"></li>
+                        <li class=""><img src="./assets/icons/facebook-2.svg" width="40" height="40" alt="facebook logo"></li>
+                        <li class=""><img src="./assets/icons/tvitter-3.svg" width="40" height="40" alt="x logo"></li>
+                    </ul>
+
+                    <div class="relative overflow-hidden mb-[50px]">
+                        <a class="text-[#eee] text-[12px] absolute top-0" href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps">Toshkent</a>
+                        <a class="text-[#eee] text-[12px] absolute top-[14px]" href="https://yandex.uz/maps/10335/tashkent/?ll=69.279737%2C41.311151&utm_medium=mapframe&utm_source=maps&z=12">Yandex Xaritalar – transport, navigatsiya, joylarni qidirish</a>
+                        <iframe class="relative" src="https://yandex.uz/map-widget/v1/?ll=69.279737%2C41.311151&z=12" width="871" height="323.19"></iframe>
+                    </div>
+
+                    <form class="py-[52px] px-[50px]" action="">
+                        <h2 class="font-sans font-bold text-[24px] leading-[33px] tracking-[0.1px] text-[#252B42] mb-[45px]">
+                            Send a message
+                        </h2>
+
+                        <label>
+                            <input class="placeholder:font-sans placeholder:font-normal placeholder:text-[15px] placeholder:leading-[16px] placeholder:tracking-[0.1px] placeholder:text-[#252B42]" type="text" name="Your name" placeholder="Your Name" required minlength="4">
+                        </label>
+                        <label>
+                            <input class="" type="text" name="Your name" placeholder="Your Name" required minlength="4">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
     </main>
     <!-- MAIN END -->
-
+    
     <script src="./js/spaghetti.js"></script>
 </body>
 </html>

@@ -23,6 +23,7 @@ module.exports = {
     boxShadow: {
       'box' : '0px 2px 15px 0px rgba(23, 58, 86, 0.1)',
       'sss' : '0px 2px 8px 0px rgba(0, 0, 0, 0.25)',
+      'drop' : '0px 1px 2px 0px [#00000040]',
     },
   },
   plugins: [],
