@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./css/output.css">
     
 </head>
-<body class="bg-white dark:bg-dark">
+<body class="bg-white dark:bg-[#1F2E35]">
     
     <!-- HEADER START -->
-    <header class="py-[19px] bg-white dark:bg-dark">
+    <header class="py-[19px]">
         <div class="container mx-auto px-8 max-w-[1172px]">
             <div class="flex justify-between items-center">
                 <a class="flex items-center gap-4" href="./index.html">
@@ -27,9 +27,9 @@
                 <div class="gap-6 items-center hidden lg:flex">
                     <nav>
                         <ul class="flex gap-6 items-center">
-                            <li><a class="font-sans dark:text-white" href="#">Product</a></li>
-                            <li><a class="font-sans dark:text-white" href="#">Customers</a></li>
-                            <li><a class="font-sans dark:text-white" href="#">Pricing</a></li>
+                            <li><a class="font-sans dark:text-white" href="./index.html">Product</a></li>
+                            <li><a class="font-sans dark:text-white" href="./customer.html">Customers</a></li>
+                            <li><a class="font-sans dark:text-white" href="./pricing.html">Pricing</a></li>
                             <li><a class="font-sans dark:text-white" href="./resources.html">Resourses</a></li>
                             <li><a class="font-sans dark:text-white font-bold py-[10px] px-6 border border-[#BCD0E5] rounded-md" href="#">Sign In</a></li>
                             <li><a class="font-sans dark:text-white font-bold py-[10px] px-6 rounded-md bg-green text-white border border-green" href="#">Sign Up</a></li>
@@ -57,9 +57,8 @@
     
     <!-- MAIN START -->
     <main>
-        
         <!-- HERO START -->
-        <section class="dark:bg-dark pt-[350px] lg:pt-[148px] lg:pb-[216px] bg-[url('../assets/img/amico.png')] bg-no-repeat bg-[center_top] bg-contain lg:bg-[lenght:600px_555px] lg:bg-[calc(50%+350px)_0px]">
+        <section class="pt-[350px] lg:pt-[148px] lg:pb-[216px] bg-[url('../assets/img/amico.png')] bg-no-repeat bg-[center_top] bg-contain lg:bg-[lenght:600px_555px] lg:bg-[calc(50%+350px)_0px]">
             <div class="container mx-auto px-8 max-w-[1172px]">
                 <div class="w-full max-w-[458px] text-center lg:text-start">
                     <h1 class="font-sans text-[40px] font-bold mb-[18px] text-dark dark:text-white lg:pr-[70px]">
@@ -85,7 +84,7 @@
         <!-- HERO END -->
         
         <!-- PRODUCT START -->
-        <section class="pb-[90px] pt-[99px] lg:py-[90px] bg-[url('../assets/img/bg.png')] bg-no-repeat bg-contain lg:bg-[length:100%_389px] dark:bg-[url('../assets/img/dark-bg.png')] dark:bg-dark bg-bottom">
+        <section class="pb-[90px] pt-[99px] lg:py-[90px] bg-[url('../assets/img/bg.png')] bg-no-repeat bg-contain lg:bg-[length:100%_389px] dark:bg-[url('../assets/img/dark-bg.png')] bg-bottom">
             <div class="container mx-auto px-8 max-w-[1172px]">
                 <div class="flex flex-col items-center justify-center">
                     <h2 class="font-sans font-bold text-[32px] leading-[48px] text-dark dark:text-white max-w-[539px] pr-[40px] mx-auto text-center mb-[58px]">
@@ -389,7 +388,7 @@
                                         0
                                     </span>
                                 </li>
-                                <li class="flex flex-col">
+                                <li class="flex flex-col items-start">
                                     <span class="font-sans font-bold text-[24px] leading-[30px] text-green">
                                         $
                                     </span>
@@ -433,7 +432,7 @@
                                         5
                                     </span>
                                 </li> 
-                                <li class="flex flex-col">
+                                <li class="flex flex-col items-start">
                                     <span class="font-sans font-bold text-[24px] leading-[30px] text-white">
                                         $
                                     </span>
@@ -477,7 +476,7 @@
                                         10
                                     </span>
                                 </li>
-                                <li class="flex flex-col">
+                                <li class="flex flex-col items-start">
                                     <span class="font-sans font-bold text-[24px] leading-[30px] text-green">
                                         $
                                     </span>
@@ -636,9 +635,9 @@
                     </a>
                     
                     <ul class="flex items-center gap-[16px]">
-                        <li class=""><img src="./assets/icons/insta-1.svg" width="40" height="40" alt="instagram logo"></li>
-                        <li class=""><img src="./assets/icons/facebook-2.svg" width="40" height="40" alt="facebook logo"></li>
-                        <li class=""><img src="./assets/icons/tvitter-3.svg" width="40" height="40" alt="x logo"></li>
+                        <li><a href="#"><img src="./assets/icons/insta-1.svg" width="40" height="40" alt="instagram logo"></a></li>
+                        <li><a href="#"><img src="./assets/icons/facebook-2.svg" width="40" height="40" alt="facebook logo"></a></li>
+                        <li><a href="#"><img src="./assets/icons/tvitter-3.svg" width="40" height="40" alt="x logo"></a></li>
                     </ul>
                 </div>
                 <nav class="lg:flex">
@@ -705,7 +704,7 @@
                     <label>
                         <input class=" border shadow-drop border-[#000000] max-w-[325px] mx-auto w-full border-opacity-25 rounded-lg font-sans font-medium text-[16px] leading-[28px] py-[10px] px-[15px] placeholder:text-[#BCD0E5] focus:bg-white bg-white mb-[21px] valid:outline-green valid:bg-[white] invalid:bg-[white] outline-2 invalid:block invalid:outline-[red]" type="text" name="Enter your phone Number" placeholder="Enter your phone Number" minlength="5" required>
                     </label> 
-                    <button class="bg-green font-sans font-bold text-[16px] leading-[24px] text-white py-[7px] px-[15px] rounded-[8px] max-w-[131px] mx-auto" type="button">
+                    <button class="bg-green font-sans font-bold text-[16px] leading-[24px] text-white py-[7px] px-[15px] rounded-[8px] max-w-[131px] mx-auto lg:mr-auto" type="button">
                         Sign up Now
                     </button>
                 </form>
@@ -719,10 +718,11 @@
     </footer>
     <!-- FOOTER END -->
     
-    
-    
-    
-    
+
+
+
+
+
     <script src="./js/spaghetti.js"></script>
 </body>
 </html>
